@@ -81,7 +81,7 @@ Ext.define('GS.view.mapShow.mainMapView', {
             }
         });
     }*/
-    initialize: function() {
+  /*  initialize: function() {
         var position = new google.maps.LatLng(37.44885, -122.158592);
 
      this.add({
@@ -112,7 +112,7 @@ Ext.define('GS.view.mapShow.mainMapView', {
     }
 
 });
-    }
+    }*/
 
 })
 
