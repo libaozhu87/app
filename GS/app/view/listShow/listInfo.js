@@ -12,9 +12,9 @@ Ext.define('GS.view.listShow.listInfo', {
         store:"listStore",
         itemTpl: [
             '<div class="avatar" style="background-image: url({url});"></div>',
-            '<h2>{title}</h2>',
+            '<p class = "h1">{title}</p>',
             '<span>支持票{up}</span><span> -- </span><span>反对票{down}</span>',
-            '<h5>{overview}</h5>',
+            '<p class = "h5">{overview}</p>',
             ]
     }
 });

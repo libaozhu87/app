@@ -63,10 +63,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mainMapView.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mainMapView.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/mapShow/mainMapView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="29" selection-start="435" selection-end="435" vertical-scroll-proportion="0.6990132">
+            <state line="19" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,25 +93,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="28" selection-start="1343" selection-end="1372" vertical-scroll-proportion="-0.7352941">
+            <state line="46" column="18" selection-start="1343" selection-end="1372" vertical-scroll-proportion="-0.7352941">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="324" column="0" selection-start="8309" selection-end="8309" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.Json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/list.Json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+            <state line="325" column="0" selection-start="8323" selection-end="8323" vertical-scroll-proportion="0.075630255">
               <folding />
             </state>
           </provider>
@@ -471,7 +462,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="1" width="1388" height="790" extended-state="1" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -603,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/list.Json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="102" column="26" selection-start="4297" selection-end="4297" vertical-scroll-proportion="0.0">
@@ -619,21 +603,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="28" selection-start="1343" selection-end="1372" vertical-scroll-proportion="-0.7352941">
+        <state line="46" column="18" selection-start="1343" selection-end="1372" vertical-scroll-proportion="-0.7352941">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="324" column="0" selection-start="8309" selection-end="8309" vertical-scroll-proportion="0.0">
+        <state line="325" column="0" selection-start="8323" selection-end="8323" vertical-scroll-proportion="0.075630255">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/mapShow/mainMapView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="435" selection-end="435" vertical-scroll-proportion="0.6990132">
+        <state line="19" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
