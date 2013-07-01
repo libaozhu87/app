@@ -13,9 +13,6 @@ Ext.define('GS.view.listShow.mainListView', {
         items: [
             {    title: '列表展示',
                 xtype: 'listInfo',
-                //store: 'Sessions',
-                //grouped: true,
-               // pinHeaders: false
             }
         ]
     },

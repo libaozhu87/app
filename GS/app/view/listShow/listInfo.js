@@ -9,11 +9,10 @@ Ext.define('GS.view.listShow.listInfo', {
     extend: 'Ext.List',
     xtype: 'listInfo',
     config: {
-        variableHeights: true,
         store:"listStore",
         itemTpl: [
             '<div class="avatar" style="background-image: url({url});"></div>',
-            '<h3>{title}</h3>',
+            '<h2>{title}</h2>',
             '<span>支持票{up}</span><span> -- </span><span>反对票{down}</span>',
             '<h5>{overview}</h5>',
             ]

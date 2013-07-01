@@ -12,7 +12,7 @@ Ext.define('GS.view.picShow.picContainer', {
     id:'myCon',
     config:{
         store: 'picStore',
-        itemTpl:'<div style="width:100%;height:50%" float: left;"><img style="width:100%;height:100%" src="{url}"><p style="text-align:center;font-size: 1em;">{title}</p></div>',
+        itemTpl:'<div style="width:100%;height:35em;padding:2em;" "> <div class="picShow" style="background-image: url({url});"></div><p style="text-align:center;font-size: 2em;">{title}</p></div>',
         scrollable: {
             direction: 'vertical'
         }

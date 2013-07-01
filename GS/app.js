@@ -28,6 +28,7 @@ Ext.application({
         'Ext.SegmentedButton',
         'Ext.Panel',
         'Ext.Toolbar',
+		'Ext.List',
     ],
 
     views: [
