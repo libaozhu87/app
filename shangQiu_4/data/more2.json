@@ -1,0 +1,66 @@
+
+[
+{
+"chid":"1",
+"chid1":"0",
+"chstep":"1",
+"title":"意见反馈",
+"des1":"",
+"des2":"",
+"logo":"data/l1.png",
+"type1":"",
+"type2":"0",
+"regtime":"",
+"visible":"1",
+"sort":"0",
+"is_del":"0",
+"area":"null",
+"stylelist":"feedback",
+"styleview":"",
+"koubei":"",
+"cid":"1"
+},
+    {
+        "chid":"1",
+        "chid1":"0",
+        "chstep":"1",
+        "title":"清除缓存",
+        "des1":"",
+        "des2":"",
+        "logo":"data/l1.png",
+        "type1":"clear",
+        "type2":"0",
+        "regtime":"",
+        "visible":"1",
+        "sort":"0",
+        "is_del":"0",
+        "area":"null",
+        "stylelist":"showFloat",
+        "styleview":"",
+        "koubei":"",
+        "cid":"1"
+    },
+{
+"chid":"1",
+"chid1":"0",
+"chstep":"1",
+"title":"新版本检测",
+"des1":"",
+"des2":"http://192.168.18.247:8080/HtmlAppSort/AboutHelp!Json?id=1",
+"logo":"data/l1.png",
+"type1":"version",
+"type2":"0",
+"regtime":"",
+"visible":"1",
+"sort":"0",
+"is_del":"0",
+"area":"null",
+"stylelist":"showFloat",
+"styleview":"",
+"koubei":"",
+"cid":"1"
+}
+
+
+
+]
