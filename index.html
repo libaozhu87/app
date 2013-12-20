@@ -1,70 +1,128 @@
-<!doctype html>
+<!DOCTYPE>
 <html>
-    <head>
-    <meta charset="utf-8"/>
-        <meta name="viewport" content="user-scalable=no" />
-    <title>无标题文档</title>
+<head>
+    <meta charset="utf-8">
+    <title>in2sight</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="css/Jingle.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="aside_container">
+    <aside id="index_aside" data-position="right" data-transition="reveal" data-show-close="true">
+        <!-- <div class="header">菜单</div> -->
+        <div class="center" data-scroll="true" style="position:relative;">
+            <ul class="menu">
+                <li><a href="#reg_section" data-selected="selected" data-target="section"><i><img src="img/tmp/userPhoto.png"></i>未登录</a></li>
+                <li><a href="#index_section" data-icon="home" data-selected="selected" data-target="section">首页</a></li>
+                <li><a href="#tagList_section" data-icon="tag" data-selected="selected" data-target="section">热门标签</a></li>
+                <li><a href="#set_section" data-icon="cog" data-selected="selected" data-target="section">设置</a></li>
+                <li><a href="#form_section" data-icon="next" data-selected="selected" data-target="section">离线下载</a></li>
+            </ul>
+        </div>
+    </aside>
+</div>
 
-    <style type="text/css">
-        body {
-            margin: 0px;
-            padding: 0px;
-        }
-    </style>
-    <link rel="stylesheet" type="text/css"  href="css/myBaseCss.css">
-        <link rel="stylesheet" type="text/css"  href="shangQiu_4/css/shangQiu.css">
-        <link rel="stylesheet" type="text/css"  href="shangQiu_4/css/shangQiuList.css">
-        <link rel="stylesheet" type="text/css"  href="comCss/comCss.css">
-
-        <script src="myLib/zepto.js" ></script>
-        <script src="myLib/zepto.flickable.js" ></script>
-
-<!--        <link rel="stylesheet" href="myLib/jquery.mobile-1.3.2.min.css" />
-        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script src="myLib/jquery.mobile-1.3.2.min.js"></script>-->
-
-<!--        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">-->
-<!--        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>-->
-        <script src='myLib/jquery.js'></script>
-        <script src='myLib/jquery.mobile-events.js'></script>
-
-  <!--      <script src="myLib/touch1.js" ></script>-->
-      <!--  <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>-->
-
-
-        <script src="myLib/swipe.js" ></script>
-        <script src="myLib/DOME.js" ></script>
-        <script src='myLib/alice.core.js'></script>
-        <script src='myLib/alice.plugins.cheshire.js'></script>
-
-        <script src='mySrc/component.js'></script>
-        <script src='mySrc/warpCon.js'></script>
-        <script src='mySrc/mainBar.js'></script>
-        <script src='mySrc/viewPort.js'></script>
-        <script src='mySrc/myCars.js'></script>
-        <script src='mySrc/myNav.js'></script>
-        <script src='mySrc/toolBar.js'></script>
-        <script src='mySrc/myImage.js'></script>
-        <script src='mySrc/mydataView.js'></script>
-        <script src='mySrc/myList.js'></script>
-        <script src='mySrc/myMenuView.js'></script>
-        <script src='mySrc/myCon.js'></script>
-        <script src='mySrc/myformPanel.js'></script>
-        <script src='mySrc/floatPanel.js'></script>
-
-
-        <script src="share/share.js"></script>
-        <script src='share/gobalVar.js'></script>
-        <script src='share/config.js'></script>
-        <script src='share/modeStore.js'></script>
-        <script src='share/core.js'></script>
-        <script src='shangQiu_4/js/shangQiuMode.js'></script>
-    <script src='js/index.js'></script>
-    </head>
-    <body class="fontSize_normal">
-    <div id="myApp"></div>
-    <div id="shadeLayer"></div>
-    <div id="dialogueLayer"></div>
-    <div id="infoLayer"></div>
-    </body>
+<div id="section_container">
+    <section id="index_section" class="active" >
+        <header>
+            <nav class="right">
+                <a data-target="menu" data-icon="menu" href="#index_aside"></a>
+            </nav>
+            <h1 class="title title_left"><img src="img/logo.png"></h1>
+        </header>
+        <article id="index_con" class="active" data-scroll="true">
+            <div class="scrollWrapper">
+                <div class="top_new pr">
+                    <img src="img/tmp/ads.jpg" class="top_new_img">
+                    <p class="img_info">Paper母公司FiftyThree推出硬件了！一支就叫Pencil的触控</p>
+                </div>
+                <div class="new_list">
+                    <ul class="list">
+                        <li>
+                            <a href="#detailArticle_section" data-selected="selected" data-target="section">
+                                <dl class="clearfix">
+                                   <dt class="fl"><img src="img/tmp/news_img.jpg"></dt>
+                                    <dd class="new_title">
+                                        <strong>Pebble 上线亚马逊美国，力拼圣诞购物潮</strong>
+                                        <p>2013-11-28 16:36　匿名</p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#detailArticle_section" data-selected="selected" data-target="section">
+                                <dl class="clearfix">
+                                   <dt class="fl"><img src="img/tmp/news_img.jpg"></dt>
+                                    <dd class="new_title">
+                                        <strong>Pebble 上线亚马逊美国，力拼圣诞购物潮</strong>
+                                        <p>2013-11-28 16:36　匿名</p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#detailArticle_section" data-selected="selected" data-target="section">
+                                <dl class="clearfix">
+                                   <dt class="fl"><img src="img/tmp/news_img.jpg"></dt>
+                                    <dd class="new_title">
+                                        <strong>Pebble 上线亚马逊美国，力拼圣诞购物潮</strong>
+                                        <p>2013-11-28 16:36　匿名</p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#detailArticle_section" data-selected="selected" data-target="section">
+                                <dl class="clearfix">
+                                   <dt class="fl"><img src="img/tmp/news_img.jpg"></dt>
+                                    <dd class="new_title">
+                                        <strong>Pebble 上线亚马逊美国，力拼圣诞购物潮</strong>
+                                        <p>2013-11-28 16:36　匿名</p>
+                                    </dd>
+                                </dl>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </section>
+</div>
+<script type="text/javascript" src="js/lib/cordova.js"></script>
+<!-- lib -->
+<script type="text/javascript" src="js/lib/zepto.js"></script>
+<script type="text/javascript" src="js/lib/iscroll.js"></script>
+<script type="text/javascript" src="js/lib/template.min.js"></script>
+<script type="text/javascript" src="js/lib/Jingle.debug.js"></script>
+<script type="text/javascript" src="js/lib/zepto.touch2mouse.js"></script>
+<script type="text/javascript" src="js/lib/barcodescanner.js"></script>
+<!--- app -->
+<script type="text/javascript" src="js/app/app.js"></script>
+<script>
+   /* $(function(){
+        $("#index_con").trigger('articleshow');
+    })*/
+	//调用摄像头；
+	/*window.uexOnload = function(type){
+	    if(!type){
+	    }
+	}
+	function cameraOpen(){
+	  uexCamera.cbOpen=function(opId,dataType,data){
+        document.getElementById("userPhoto").setAttribute("src",data);
+	  } 
+	  uexCamera.open();
+	}
+    //打开本地图片
+    function openBrowser(){
+    uexImageBrowser.cbPick=function (opCode,dataType,data){
+        document.getElementById("userPhoto").setAttribute("src",data);
+    }
+    uexImageBrowser.pick();*/
+}
+</script>
+</body>
 </html>

@@ -1,0 +1,271 @@
+header .title_left{
+    text-align: left;
+    padding-left:15px;
+}
+header .title_left img{
+    height:44px;
+}
+.menu i img{
+    width:40px;
+    border:10px;
+    margin-right:5px;
+}
+#index_section .img_info{
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding:10px;
+    background:rgba(0,0,0,0.5);
+    color:#fff;
+    width:100%;
+}
+#index_section .top_new_img{
+    width:100%;
+}
+.new_list img{
+    width:62px;
+}
+.new_list .new_title{
+    margin-left:70px;
+}
+#detailArticle_section header,
+#comment_section header,
+#comcon_section header,
+#set_section header{
+    line-height:18px;
+}
+#set_section .modify_photo{
+    display: -webkit-box;
+    display: box;
+}
+#set_section .modify_photo a{
+    padding-top:25px;
+}
+#set_section .modify_photo .user_img{
+    display:block;
+    -webkit-box-flex : 1;
+    text-align:right;
+    margin-right:20px;
+}
+.modify_photo .user_img img{
+    width:50px;
+    height:50px;
+    border-radius: 3px;
+}
+#detailArticle_section .white_bg div{
+    padding-right:15px;
+}
+#detailArticle_section .next_page{
+    display: block;
+    width: 100%;
+}
+#detailArticle_section .next_page .next{
+    padding-top:15px;
+}
+#detailArticle_section .user_info{
+    padding-left:15px;
+}
+#detailArticle_section .user_info img{
+    width:26px;
+    margin:10px 0;
+    border-radius:50%;
+} 
+.user_info .new_title{
+    margin-left:40px;
+    padding-top: 5px;
+}
+.user_info .new_title p{
+    font-size:12px;
+}
+article .con_pad{
+    padding:15px;
+    line-height:22px;
+    color:#000;
+}
+#detailArticle_section h1{
+    font-size: 24px;
+}
+#detailArticle_section .arcicle_con{
+    line-height:22px;
+    margin:15px 0;
+}
+#detailArticle_section .arcicle_con img{
+    min-width:300px;
+    max-width:100%;
+}
+
+#comment_section .title{
+    text-shadow:none;
+    font-weight: normal;
+}
+#comment_section .list img{
+    width:30px;
+    border-radius: 50%;
+}
+#comment_section .list>li p{
+    color:#000;
+    line-height:22px;
+}
+#comment_section footer a.comment_btn{
+    height:30px;
+    line-height:30px;
+    border:1px solid #7e8184;
+    margin-top:10px;
+    text-align:left;
+    -webkit-box-flex:3;
+    box-flex:3;
+    margin-right:15px;
+    padding-left:5px;
+}
+#comcon_section nav.left a,
+#set_section nav.left a{
+    margin-top:15px;
+}
+#comcon_section .comment_con{
+    border:0;
+    resize:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    height:90%;
+}
+#login_section,
+#login_section article,
+#reg_section,
+#reg_section article
+{
+    background: #4586d8;
+}
+#login_section .login_box,
+#reg_section .login_box
+{
+    padding:15px;
+    color:#7f7f7f;
+}
+#login_section form,
+#reg_section form
+{
+  -webkit-box-shadow:none;
+  background: #fff;  
+}
+#login_section .lost_pw{
+    color:#7f7f7f;
+    padding-top:10px;
+    margin-right:3px;
+}
+#login_section .btn_box，
+#reg_section .btn_box{
+    display:-webkit-box;
+    display:box;
+}
+#login_section .btn_box a,
+#reg_section .btn_box a{
+     display:block;
+     -webkit-box-flex:1;
+     box-flex:1;
+     text-align:center;
+     background:#fff;
+     color:#4586d8;
+     padding:10px 0; 
+}
+#login_section .btn_box a:last-child{
+    margin-left:15px;
+}
+#login_section .btn_box a:active,
+#reg_section .btn_box a:active{
+    color:#fff;
+    background:#2a64b7;
+}
+#login_section footer,
+#reg_section footer{
+    background:none;
+    border:0;
+    text-align:center;
+    color:#000;
+    display:block;
+    height:30px;
+}
+#set_section .list{background:#fff;}
+#set_section .list .divider{
+    top:0;
+    padding:10px 15px;
+    color:#4d4d4d;
+    font-weight:normal;
+}
+#set_section .list a{
+    color:#000;
+}
+#tagList_section .list a{
+    display:-webkit-box;
+    display:box;
+}
+#tagList_section .list a span,
+#tagList_section .list a em
+{
+    display:block;
+    -webkit-box-flex:1;
+    box-flex:1;
+}
+#tagList_section .list a em{
+    text-align: right;
+    padding-right:15px;
+    color:#8f8f95;
+    font-style:normal;
+}
+#user_section .user_box{
+    background:#4586d8;
+    padding-bottom:15px;
+    color:#fff;
+}
+#user_section .user_box p{
+    text-align: center;
+    padding:10px 0;
+}
+#user_section .user_box p:first-child{
+    padding:0;
+}
+#user_section .user_box img{
+    width:64px;
+    height:64px;
+    border-radius:50%;
+}
+
+
+
+
+.indented > * {
+    margin: 5px 10px;
+}
+.demo-btn-group{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.demo-btn-group > *{
+    margin: 5px 0;
+}
+
+.icon-container{
+    width:100%;
+}
+.icon-container > *{
+    margin:10px;
+    padding-top: 50px;
+    float: left;
+    width: 7em;
+    height: 85px;
+    background-color: #eee;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+.icon-container .icon{
+    font-size: 2em;
+    width:100%;
+    text-align: center;
+    padding:5px;
+    position: absolute;
+    left: 0;
+    top:15px;
+}

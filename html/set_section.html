@@ -1,0 +1,29 @@
+<section id="set_section">
+    <header>
+        <nav class="left">
+            <a href="#" data-icon="previous" data-target="back"></a>
+        </nav>
+        <h1 class="title">设置</h1>
+    </header>
+    <article class="active" id="list_article" data-scroll="true">
+        <ul class="list">
+            <li class="divider">用户：</li>
+            <li data-icon="next" data-selected="selected"><a href="#">修改密码</a></li>
+            <li data-icon="next" data-selected="selected"><a href="#">个人信息</a></li>
+            <li data-icon="next" data-selected="selected" class="modify_photo"><a href="#">修改头像</a><span class="user_img"><img id="userPhoto" src="img/tmp/user.jpg"></span></li>
+        </ul>
+    </article>
+    <script type="text/javascript">
+        $('.modify_photo').tap(function(){
+            J.popup({
+                html: '<div class="demo-btn-group" style="height:180px;background:#fff;padding:16px;box-shadow:0 -2px 5px rgba(0,0,0,0.1);color:#000;">'
+                            +'<a href="#" class="button block" onclick="cameraOpen();">拍照</a>'
+                            +'<a href="#" class="button block" onClick="openBrowser(pictureSource.PHOTOLIBRARY);">从本地相册中选择</a>'
+                            +'<a href="#" class="button block" data-target="closePopup">取消</a>'
+                        +'</div>',
+                pos : 'bottom',
+                showCloseBtn : false
+            });
+        })
+    </script> 
+</section>
